@@ -11,7 +11,7 @@ const calculateTotalPrice = function (allProdcuts, productName) {
     let tmpProduct = product.name;
     if (productName == tmpProduct) {
       //   newProducts.push(newArrProducts);
-      sum += product.price * product.quantity;
+      sum = product.price * product.quantity;
     }
   }
   return sum;
