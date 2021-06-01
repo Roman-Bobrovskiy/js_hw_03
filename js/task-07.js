@@ -90,15 +90,15 @@ const account = {
 };
 
 account.deposit(100);
-console.log(`Transaction 1: 100`);
+console.log(`Transaction deposit 1: 100`);
 account.deposit(10);
-console.log("Transaction 2: 10 ");
+console.log("Transaction deposit 2: 10 ");
 account.withdraw(20);
-console.log("Transaction 3: 20 ");
+console.log("Transaction withdraw 3: 20 ");
 account.withdraw(5);
-console.log("Transaction 4: 5 ");
+console.log("Transaction withdraw 4: 5 ");
 account.withdraw(500);
-console.log(`Transaction 5: 500 `);
+console.log(`Transaction withdraw 5: 500 `);
 
 console.log(`Total balance ${account.getBalance()}`);
 console.log(`getTransactionDetails = 2 `);
